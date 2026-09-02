@@ -4,7 +4,7 @@ of its digits (e.g., input 1234 should print 10). You must use only arithmetic
 operators.
 */
 
-package java.Day3;
+package java_assignments.Day3;
 import java.util.Scanner;
 
 public class Question1 {
