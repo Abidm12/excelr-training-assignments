@@ -1,0 +1,25 @@
+
+package java_assignments.Day4;
+
+
+public class Q8_PairSum {
+
+    public static void findPairs(int[] arr, int target) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i + 1; j < arr.length; j++) {
+                if (arr[i] + arr[j] == target) {
+                    System.out.println("(" + arr[i] + ", " + arr[j] + ")");
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+
+        int[] arr = {1, 2, 3, 4, 5};
+        int target = 6;
+
+        findPairs(arr, target);
+    }
+}
+
