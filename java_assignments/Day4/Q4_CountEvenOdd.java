@@ -1,4 +1,4 @@
-package java_assigments.Day4;
+package java_assignments.Day4;
 
 public class Q4_CountEvenOdd {
     public static void countEvenOdd(int arr[]){
